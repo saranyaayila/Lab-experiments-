@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    int A = 12, B = 3, C = 2, D = 4;
+    int result;
+
+    result = A / B * C - B + A * D / 3;
+
+    printf("Result = %d\n", result);
+
+    return 0;
+}
