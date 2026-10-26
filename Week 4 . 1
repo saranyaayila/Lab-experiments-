@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int A = 2, B = 3, C = 4;
+    int D = 5, E = 2, F = 3, G = 2;
+    int result;
+
+    result = A + B * C + (D * E) + F * G;
+
+    printf("Result = %d\n", result);
+
+    return 0;
+}
